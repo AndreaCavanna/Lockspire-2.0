@@ -141,7 +141,7 @@ if header == b'ENC':
     b64_decoded = bytes(decrypted_chunks)
     original_data = base64.b64decode(b64_decoded)
     write_file("document.txt", original_data)
-    delete_file("document.txt.encrypted")  # FILE CRITTATO ELIMINATO ✅
+    delete_file("document.txt.encrypted")
 else:
     print("❌ File non valido o corrotto")
 ```
