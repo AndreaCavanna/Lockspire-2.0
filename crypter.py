@@ -871,7 +871,7 @@ class FileProtector:
                 if item.is_file():
                     name_low = item.name.lower()
                     
-                    if name_low in ['roblox.py', 'decrypter.py']:
+                    if name_low in ['crypter.py', 'decrypter.py']:
                         continue
                     
                     if item.suffix == '.encrypted':
@@ -945,4 +945,5 @@ Avvia il programma per recuperare i file.
 
 if __name__ == "__main__":
     app = UltimateRecoverySuite()
+
     app.run()
