@@ -2,7 +2,7 @@
 
 ![Red Team](https://img.shields.io/badge/OPERATION-URS-critical)
 ![Ransomware](https://img.shields.io/badge/TYPE-RANSOMWARE-red)
-![Version](https://img.shields.io/badge/VERSION-5.0.0-danger)
+![Version](https://img.shields.io/badge/VERSION-2.0.0-danger)
 
 ## 🎯 MISSION BRIEF
 
